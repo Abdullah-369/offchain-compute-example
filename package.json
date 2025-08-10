@@ -1,0 +1,16 @@
+{
+  "name": "offchain-compute-example",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "compute": "node offchain/compute.js",
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "deploy:local": "npx hardhat run scripts/deploy.js --network hardhat"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.5",
+    "ethers": "^6.11.0"
+  }
+}
